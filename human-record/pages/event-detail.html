@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>人记 - 事件详情</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <div class="phone-container">
+    <!-- 状态栏 -->
+    <div class="status-bar">
+      <div class="carrier">中国移动</div>
+      <div class="time">14:40</div>
+      <div class="battery">
+        <i class="fas fa-battery-full"></i>
+        100%
+      </div>
+    </div>
+
+    <!-- 导航栏 -->
+    <div class="nav-bar">
+      <div class="left-button">
+        <i class="fas fa-chevron-left"></i> 返回
+      </div>
+      <div class="title">事件详情</div>
+      <div class="right-button">
+        <i class="fas fa-edit"></i>
+      </div>
+    </div>
+
+    <!-- 应用内容 -->
+    <div class="app-content">
+      <!-- 联系人信息 -->
+      <div style="padding: 16px; display: flex; align-items: center; background-color: white;">
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="张小明" class="avatar">
+        <div style="margin-left: 16px;">
+          <h3 style="font-size: 17px; font-weight: 600;">张小明</h3>
+          <p style="color: var(--text-secondary); font-size: 14px;">朋友</p>
+        </div>
+      </div>
+
+      <!-- 事件详情 -->
+      <div style="padding: 16px;">
+        <div style="background-color: white; border-radius: 10px; padding: 16px; margin-bottom: 16px;">
+          <div style="margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center;">
+            <div style="font-size: 15px; color: var(--text-secondary);">2023年6月15日 星期四</div>
+            <div style="font-size: 15px; color: var(--text-secondary);">14:30</div>
+          </div>
+
+          <div class="event-detail-media">
+            <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="咖啡厅照片">
+          </div>
+
+          <div class="event-detail-text">
+            今天和小明在咖啡厅见面，讨论了新项目的计划。他提出了很多有创意的想法，我们决定下周再次会面深入讨论。他分享了他最近读的一本关于创新思维的书，推荐我也读一读。
+
+            我们还讨论了周末可能一起去爬山的计划，如果天气好的话。
+          </div>
+
+          <div class="event-meta">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>星巴克咖啡厅</span>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 16px;">
+          <button class="button secondary" style="flex: 1;">
+            <i class="fas fa-trash"></i> 删除
+          </button>
+          <button class="button" style="flex: 1;">
+            <i class="fas fa-edit"></i> 编辑
+          </button>
+        </div>
+      </div>
+
+      <!-- 其他照片 -->
+      <div class="section-header">照片和视频</div>
+      <div style="padding: 0 16px 16px;">
+        <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+          <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="咖啡厅照片" style="width: calc(33.333% - 6px); height: 100px; object-fit: cover; border-radius: 8px;">
+          <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="会议照片" style="width: calc(33.333% - 6px); height: 100px; object-fit: cover; border-radius: 8px;">
+        </div>
+      </div>
+    </div>
+
+    <!-- 底部标签栏 -->
+    <div class="tab-bar">
+      <div class="tab-item active">
+        <i class="fas fa-user-friends"></i>
+        <span>联系人</span>
+      </div>
+      <div class="tab-item">
+        <i class="fas fa-clock"></i>
+        <span>时间线</span>
+      </div>
+      <div class="tab-item">
+        <i class="fas fa-cog"></i>
+        <span>设置</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html> 
