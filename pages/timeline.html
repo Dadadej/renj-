@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>人记 - 时间线</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <div class="phone-container">
+    <!-- 状态栏 -->
+    <div class="status-bar">
+      <div class="carrier">中国移动</div>
+      <div class="time">14:42</div>
+      <div class="battery">
+        <i class="fas fa-battery-full"></i>
+        100%
+      </div>
+    </div>
+
+    <!-- 导航栏 -->
+    <div class="nav-bar">
+      <div class="left-button"></div>
+      <div class="title">时间线</div>
+      <div class="right-button">
+        <i class="fas fa-search"></i>
+      </div>
+    </div>
+
+    <!-- 应用内容 -->
+    <div class="app-content">
+      <!-- 时间线筛选 -->
+      <div style="padding: 12px 16px; background-color: white; display: flex; gap: 8px; overflow-x: auto; white-space: nowrap;">
+        <div style="padding: 8px 16px; background-color: var(--primary-color); color: white; border-radius: 16px; font-size: 14px;">
+          全部
+        </div>
+        <div style="padding: 8px 16px; background-color: #F2F2F7; color: var(--text-primary); border-radius: 16px; font-size: 14px;">
+          张小明
+        </div>
+        <div style="padding: 8px 16px; background-color: #F2F2F7; color: var(--text-primary); border-radius: 16px; font-size: 14px;">
+          李华
+        </div>
+        <div style="padding: 8px 16px; background-color: #F2F2F7; color: var(--text-primary); border-radius: 16px; font-size: 14px;">
+          王芳
+        </div>
+        <div style="padding: 8px 16px; background-color: #F2F2F7; color: var(--text-primary); border-radius: 16px; font-size: 14px;">
+          赵强
+        </div>
+      </div>
+
+      <!-- 时间线列表 -->
+      <div style="padding: 16px;">
+        <!-- 日期分组 -->
+        <div style="margin-bottom: 24px;">
+          <div style="font-weight: 600; margin-bottom: 12px;">2023年6月</div>
+          
+          <!-- 事件卡片 -->
+          <div style="background-color: white; border-radius: 10px; margin-bottom: 16px; overflow: hidden;">
+            <div style="padding: 16px; display: flex; border-bottom: 1px solid var(--border-color);">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="张小明" class="avatar">
+              <div style="margin-left: 16px; flex: 1;">
+                <div style="display: flex; justify-content: space-between;">
+                  <h3 style="font-size: 17px; font-weight: 600;">张小明</h3>
+                  <span style="color: var(--text-secondary); font-size: 14px;">6月15日</span>
+                </div>
+                <p style="color: var(--text-secondary); font-size: 14px; margin-top: 4px;">星巴克咖啡厅</p>
+              </div>
+            </div>
+            <div style="padding: 16px;">
+              <p style="margin-bottom: 12px;">今天和小明在咖啡厅见面，讨论了新项目的计划。他提出了很多有创意的想法...</p>
+              <div style="display: flex; gap: 8px;">
+                <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="咖啡厅照片" style="width: 80px; height: 80px; object-fit: cover; border-radius: 6px;">
+                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="会议照片" style="width: 80px; height: 80px; object-fit: cover; border-radius: 6px;">
+              </div>
+            </div>
+          </div>
+
+          <!-- 事件卡片 -->
+          <div style="background-color: white; border-radius: 10px; margin-bottom: 16px; overflow: hidden;">
+            <div style="padding: 16px; display: flex; border-bottom: 1px solid var(--border-color);">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="李华" class="avatar">
+              <div style="margin-left: 16px; flex: 1;">
+                <div style="display: flex; justify-content: space-between;">
+                  <h3 style="font-size: 17px; font-weight: 600;">李华</h3>
+                  <span style="color: var(--text-secondary); font-size: 14px;">6月10日</span>
+                </div>
+                <p style="color: var(--text-secondary); font-size: 14px; margin-top: 4px;">城市图书馆</p>
+              </div>
+            </div>
+            <div style="padding: 16px;">
+              <p style="margin-bottom: 12px;">和李华在图书馆学习，他帮我解决了几个数学难题。约好下周继续一起复习期末考试。</p>
+              <div style="display: flex; gap: 8px;">
+                <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="图书馆照片" style="width: 80px; height: 80px; object-fit: cover; border-radius: 6px;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 日期分组 -->
+        <div style="margin-bottom: 24px;">
+          <div style="font-weight: 600; margin-bottom: 12px;">2023年5月</div>
+          
+          <!-- 事件卡片 -->
+          <div style="background-color: white; border-radius: 10px; margin-bottom: 16px; overflow: hidden;">
+            <div style="padding: 16px; display: flex; border-bottom: 1px solid var(--border-color);">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="张小明" class="avatar">
+              <div style="margin-left: 16px; flex: 1;">
+                <div style="display: flex; justify-content: space-between;">
+                  <h3 style="font-size: 17px; font-weight: 600;">张小明</h3>
+                  <span style="color: var(--text-secondary); font-size: 14px;">5月3日</span>
+                </div>
+                <p style="color: var(--text-secondary); font-size: 14px; margin-top: 4px;">张小明家</p>
+              </div>
+            </div>
+            <div style="padding: 16px;">
+              <p style="margin-bottom: 12px;">小明生日聚会，在他家举行。送了一本他喜欢的小说作为礼物，他很开心。</p>
+              <div style="display: flex; gap: 8px;">
+                <img src="https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="生日聚会照片1" style="width: 80px; height: 80px; object-fit: cover; border-radius: 6px;">
+                <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="生日聚会照片2" style="width: 80px; height: 80px; object-fit: cover; border-radius: 6px;">
+                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="生日聚会照片3" style="width: 80px; height: 80px; object-fit: cover; border-radius: 6px;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 底部标签栏 -->
+    <div class="tab-bar">
+      <div class="tab-item">
+        <i class="fas fa-user-friends"></i>
+        <span>联系人</span>
+      </div>
+      <div class="tab-item active">
+        <i class="fas fa-clock"></i>
+        <span>时间线</span>
+      </div>
+      <div class="tab-item">
+        <i class="fas fa-cog"></i>
+        <span>设置</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html> 

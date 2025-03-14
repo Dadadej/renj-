@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>人记 - 添加事件</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <div class="phone-container">
+    <!-- 状态栏 -->
+    <div class="status-bar">
+      <div class="carrier">中国移动</div>
+      <div class="time">14:38</div>
+      <div class="battery">
+        <i class="fas fa-battery-full"></i>
+        100%
+      </div>
+    </div>
+
+    <!-- 导航栏 -->
+    <div class="nav-bar">
+      <div class="left-button">
+        <i class="fas fa-times"></i> 取消
+      </div>
+      <div class="title">添加事件</div>
+      <div class="right-button">
+        保存
+      </div>
+    </div>
+
+    <!-- 应用内容 -->
+    <div class="app-content">
+      <!-- 联系人信息 -->
+      <div style="padding: 16px; display: flex; align-items: center; background-color: white;">
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="张小明" class="avatar">
+        <div style="margin-left: 16px;">
+          <h3 style="font-size: 17px; font-weight: 600;">张小明</h3>
+          <p style="color: var(--text-secondary); font-size: 14px;">朋友</p>
+        </div>
+      </div>
+
+      <!-- 事件表单 -->
+      <div style="padding: 16px;">
+        <div class="form-group">
+          <div class="form-item">
+            <div class="form-label">日期</div>
+            <input type="date" class="form-input" value="2023-06-20">
+          </div>
+          <div class="form-item">
+            <div class="form-label">时间</div>
+            <input type="time" class="form-input" value="14:30">
+          </div>
+          <div class="form-item">
+            <div class="form-label">地点</div>
+            <input type="text" class="form-input" placeholder="输入地点">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="form-item" style="align-items: flex-start;">
+            <div class="form-label" style="padding-top: 8px;">内容</div>
+            <textarea class="form-input" style="height: 120px; resize: none; padding: 8px 0;" placeholder="记录与张小明相关的事件..."></textarea>
+          </div>
+        </div>
+
+        <!-- 媒体添加 -->
+        <div class="form-group">
+          <div class="form-item" style="flex-direction: column; align-items: flex-start;">
+            <div style="width: 100%; margin-bottom: 12px;">添加照片/视频</div>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+              <div style="width: 80px; height: 80px; background-color: #F2F2F7; border-radius: 8px; display: flex; justify-content: center; align-items: center; border: 1px dashed #8E8E93;">
+                <i class="fas fa-plus" style="color: #8E8E93;"></i>
+              </div>
+              <div style="width: 80px; height: 80px; background-color: #F2F2F7; border-radius: 8px; overflow: hidden; position: relative;">
+                <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="预览图片" style="width: 100%; height: 100%; object-fit: cover;">
+                <div style="position: absolute; top: 4px; right: 4px; width: 20px; height: 20px; background-color: rgba(0,0,0,0.5); border-radius: 50%; display: flex; justify-content: center; align-items: center;">
+                  <i class="fas fa-times" style="color: white; font-size: 10px;"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="button">
+          保存事件
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+</html> 

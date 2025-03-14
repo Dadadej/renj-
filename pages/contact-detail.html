@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>人记 - 联系人详情</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <div class="phone-container">
+    <!-- 状态栏 -->
+    <div class="status-bar">
+      <div class="carrier">中国移动</div>
+      <div class="time">14:32</div>
+      <div class="battery">
+        <i class="fas fa-battery-full"></i>
+        100%
+      </div>
+    </div>
+
+    <!-- 导航栏 -->
+    <div class="nav-bar">
+      <div class="left-button">
+        <i class="fas fa-chevron-left"></i> 返回
+      </div>
+      <div class="title">联系人详情</div>
+      <div class="right-button">
+        <i class="fas fa-edit"></i>
+      </div>
+    </div>
+
+    <!-- 应用内容 -->
+    <div class="app-content">
+      <!-- 联系人信息 -->
+      <div style="padding: 20px; text-align: center; background-color: white;">
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="张小明" class="avatar large">
+        <h2 style="margin-top: 12px; font-size: 22px;">张小明</h2>
+        <p style="color: var(--text-secondary); margin-top: 4px;">朋友</p>
+      </div>
+
+      <!-- 操作按钮 -->
+      <div style="padding: 0 16px;">
+        <button class="button">
+          <i class="fas fa-plus"></i> 添加新事件
+        </button>
+      </div>
+
+      <!-- 事件时间线 -->
+      <div class="section-header">事件记录</div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">2023年6月15日 星期四</div>
+          <div class="timeline-content">
+            <div class="timeline-text">今天和小明在咖啡厅见面，讨论了新项目的计划。他提出了很多有创意的想法，我们决定下周再次会面深入讨论。</div>
+            <div class="event-meta">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>星巴克咖啡厅</span>
+              <i class="fas fa-clock"></i>
+              <span>14:30</span>
+            </div>
+            <div class="timeline-media">
+              <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="咖啡厅照片">
+              <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="会议照片">
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2023年5月3日 星期三</div>
+          <div class="timeline-content">
+            <div class="timeline-text">小明生日聚会，在他家举行。送了一本他喜欢的小说作为礼物，他很开心。</div>
+            <div class="event-meta">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>张小明家</span>
+              <i class="fas fa-clock"></i>
+              <span>18:00</span>
+            </div>
+            <div class="timeline-media">
+              <img src="https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="生日聚会照片1">
+              <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="生日聚会照片2">
+              <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="生日聚会照片3">
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2023年3月15日 星期三</div>
+          <div class="timeline-content">
+            <div class="timeline-text">和小明一起参加了马拉松比赛，他跑完了全程，我只完成了半程。赛后一起吃了大餐庆祝。</div>
+            <div class="event-meta">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>城市体育中心</span>
+              <i class="fas fa-clock"></i>
+              <span>08:00</span>
+            </div>
+            <div class="timeline-media">
+              <img src="https://images.unsplash.com/photo-1530137073265-28fbf63d5e38?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="马拉松照片">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 底部标签栏 -->
+    <div class="tab-bar">
+      <div class="tab-item active">
+        <i class="fas fa-user-friends"></i>
+        <span>联系人</span>
+      </div>
+      <div class="tab-item">
+        <i class="fas fa-clock"></i>
+        <span>时间线</span>
+      </div>
+      <div class="tab-item">
+        <i class="fas fa-cog"></i>
+        <span>设置</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html> 
